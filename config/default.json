@@ -1,0 +1,9 @@
+{
+	"spotify": {
+		"clientId": "NjkwMjg0YWEzMjIyNDMyMzgxNGNmZjRiZjJkZjJlZGY=",
+		"clientSecret": "OThkYjhiOTExNmVhNGIxZmExMTBkMjQ3ZGI2ZGY0MDE="
+	},
+	"twitter": {
+		"apiKey": "bFhLVzBHcXNPdlc3ajFoQ0FWRllObFdqdw=="
+	}
+}

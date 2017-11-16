@@ -1,0 +1,4036 @@
+2017-10-09 12:13 -04:00: undefined
+2017-10-09 12:34 -04:00: undefined
+2017-10-09 12:35 -04:00: undefined
+2017-10-09 12:38 -04:00: undefined
+2017-10-09 12:40 -04:00: undefined
+2017-10-09 12:43 -04:00: undefined
+2017-10-09 12:43 -04:00: undefined
+2017-10-09 12:43 -04:00: undefined
+2017-10-09 12:45 -04:00: undefined
+2017-10-09 12:45 -04:00: undefined
+2017-10-09 12:49 -04:00: undefined
+2017-10-09 12:53 -04:00: undefined
+2017-10-09 12:55 -04:00: undefined
+2017-10-09 12:55 -04:00: undefined
+2017-10-09 12:55 -04:00: undefined
+2017-10-09 12:56 -04:00: undefined
+2017-10-09 13:00 -04:00: undefined
+2017-10-09 13:01 -04:00: undefined
+2017-10-09 13:21 -04:00: undefined
+2017-10-09 13:33 -04:00: undefined
+2017-10-09 13:37 -04:00: undefined
+2017-10-09 13:43 -04:00: undefined
+2017-10-09 13:47 -04:00: undefined
+2017-10-09 13:49 -04:00: undefined
+2017-10-09 13:49 -04:00: undefined
+2017-10-09 13:50 -04:00: undefined
+2017-10-09 13:50 -04:00: undefined
+2017-10-09 13:51 -04:00: undefined
+2017-10-09 13:51 -04:00: undefined
+2017-10-09 13:53 -04:00: undefined
+2017-10-09 13:53 -04:00: undefined
+2017-10-09 13:56 -04:00: IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: BufferList { head: null, tail: null, length: 0 },
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: true,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        bytesRead: 482,
+        _externalStream: {},
+        fd: 12,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 6510,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  connection: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        bytesRead: 482,
+        _externalStream: {},
+        fd: 12,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 6510,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: false,
+  headers: 
+   { host: '192.168.1.159:8080',
+     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'en-US,en;q=0.5',
+     'accept-encoding': 'gzip, deflate',
+     referer: 'http://192.168.1.159:8080/login',
+     'content-type': 'application/x-www-form-urlencoded',
+     'content-length': '0',
+     dnt: '1',
+     connection: 'keep-alive',
+     'upgrade-insecure-requests': '1',
+     'cache-control': 'max-age=0' },
+  rawHeaders: 
+   [ 'Host',
+     '192.168.1.159:8080',
+     'User-Agent',
+     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0',
+     'Accept',
+     'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'Accept-Language',
+     'en-US,en;q=0.5',
+     'Accept-Encoding',
+     'gzip, deflate',
+     'Referer',
+     'http://192.168.1.159:8080/login',
+     'Content-Type',
+     'application/x-www-form-urlencoded',
+     'Content-Length',
+     '0',
+     'DNT',
+     '1',
+     'Connection',
+     'keep-alive',
+     'Upgrade-Insecure-Requests',
+     '1',
+     'Cache-Control',
+     'max-age=0' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/login',
+  method: 'POST',
+  statusCode: null,
+  statusMessage: null,
+  client: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        bytesRead: 482,
+        _externalStream: {},
+        fd: 12,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 6510,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/login',
+  _parsedUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: null,
+     query: null,
+     pathname: '/login',
+     path: '/login',
+     href: '/login',
+     _raw: '/login' },
+  params: {},
+  query: {},
+  res: 
+   ServerResponse {
+     domain: null,
+     _events: { finish: [Function: resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: false,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _removedHeader: {},
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _headerSent: false,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 6510,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 6510,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _header: null,
+     _headers: { 'x-powered-by': 'Express' },
+     _headerNames: { 'x-powered-by': 'X-Powered-By' },
+     _onPendingData: [Function: updateOutgoingData],
+     req: [Circular],
+     locals: {} },
+  route: Route { path: '/login', stack: [ [Object] ], methods: { post: true } } }
+2017-10-09 13:58 -04:00: undefined
+2017-10-09 13:58 -04:00: undefined
+2017-10-09 13:58 -04:00: IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: BufferList { head: null, tail: null, length: 0 },
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: true,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        bytesRead: 1592,
+        _externalStream: {},
+        fd: 13,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     _bytesDispatched: 2873,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 5,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 5,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 846,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Circular],
+        _idlePrev: [Object],
+        _idleStart: 4816,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: null },
+     _idleStart: 4814,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  connection: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        bytesRead: 1592,
+        _externalStream: {},
+        fd: 13,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     _bytesDispatched: 2873,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 5,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 5,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 846,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Circular],
+        _idlePrev: [Object],
+        _idleStart: 4816,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: null },
+     _idleStart: 4814,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: false,
+  headers: 
+   { host: '192.168.1.159:8080',
+     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'accept-language': 'en-US,en;q=0.5',
+     'accept-encoding': 'gzip, deflate',
+     referer: 'http://192.168.1.159:8080/login',
+     'content-type': 'application/x-www-form-urlencoded',
+     'content-length': '0',
+     dnt: '1',
+     connection: 'keep-alive',
+     'upgrade-insecure-requests': '1' },
+  rawHeaders: 
+   [ 'Host',
+     '192.168.1.159:8080',
+     'User-Agent',
+     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0',
+     'Accept',
+     'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+     'Accept-Language',
+     'en-US,en;q=0.5',
+     'Accept-Encoding',
+     'gzip, deflate',
+     'Referer',
+     'http://192.168.1.159:8080/login',
+     'Content-Type',
+     'application/x-www-form-urlencoded',
+     'Content-Length',
+     '0',
+     'DNT',
+     '1',
+     'Connection',
+     'keep-alive',
+     'Upgrade-Insecure-Requests',
+     '1' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/login',
+  method: 'POST',
+  statusCode: null,
+  statusMessage: null,
+  client: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        bytesRead: 1592,
+        _externalStream: {},
+        fd: 13,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     _bytesDispatched: 2873,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 5,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 5,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 846,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Circular],
+        _idlePrev: [Object],
+        _idleStart: 4816,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: null },
+     _idleStart: 4814,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: {} } },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/login',
+  _parsedUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: null,
+     query: null,
+     pathname: '/login',
+     path: '/login',
+     href: '/login',
+     _raw: '/login' },
+  params: {},
+  query: {},
+  res: 
+   ServerResponse {
+     domain: null,
+     _events: { finish: [Function: resOnFinish] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: false,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _removedHeader: {},
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _headerSent: false,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 2873,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 4814,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 2873,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 4814,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _header: null,
+     _headers: { 'x-powered-by': 'Express' },
+     _headerNames: { 'x-powered-by': 'X-Powered-By' },
+     _onPendingData: [Function: updateOutgoingData],
+     req: [Circular],
+     locals: {} },
+  route: Route { path: '/login', stack: [ [Object] ], methods: { post: true } } }
+2017-10-09 13:58 -04:00: ServerResponse {
+  domain: null,
+  _events: { finish: [Function: resOnFinish] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  output: [],
+  outputEncodings: [],
+  outputCallbacks: [],
+  outputSize: 0,
+  writable: true,
+  _last: false,
+  upgrading: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedHeader: {},
+  _contentLength: null,
+  _hasBody: true,
+  _trailer: '',
+  finished: false,
+  _headerSent: false,
+  socket: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        bytesRead: 1592,
+        _externalStream: {},
+        fd: 13,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     _bytesDispatched: 2873,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 5,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 5,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 846,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Circular],
+        _idlePrev: [Object],
+        _idleStart: 4816,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: null },
+     _idleStart: 4814,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Object],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: [Circular] },
+  connection: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        bytesRead: 1592,
+        _externalStream: {},
+        fd: 13,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     _bytesDispatched: 2873,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 5,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 5,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::8080' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 846,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Circular],
+        _idlePrev: [Object],
+        _idleStart: 4816,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: null },
+     _idleStart: 4814,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Object],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: [Circular] },
+  _header: null,
+  _headers: { 'x-powered-by': 'Express' },
+  _headerNames: { 'x-powered-by': 'X-Powered-By' },
+  _onPendingData: [Function: updateOutgoingData],
+  req: 
+   IncomingMessage {
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 2873,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 4814,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 2873,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 4814,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     httpVersion: '1.1',
+     complete: false,
+     headers: 
+      { host: '192.168.1.159:8080',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'accept-language': 'en-US,en;q=0.5',
+        'accept-encoding': 'gzip, deflate',
+        referer: 'http://192.168.1.159:8080/login',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '0',
+        dnt: '1',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1' },
+     rawHeaders: 
+      [ 'Host',
+        '192.168.1.159:8080',
+        'User-Agent',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0',
+        'Accept',
+        'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language',
+        'en-US,en;q=0.5',
+        'Accept-Encoding',
+        'gzip, deflate',
+        'Referer',
+        'http://192.168.1.159:8080/login',
+        'Content-Type',
+        'application/x-www-form-urlencoded',
+        'Content-Length',
+        '0',
+        'DNT',
+        '1',
+        'Connection',
+        'keep-alive',
+        'Upgrade-Insecure-Requests',
+        '1' ],
+     trailers: {},
+     rawTrailers: [],
+     upgrade: false,
+     url: '/login',
+     method: 'POST',
+     statusCode: null,
+     statusMessage: null,
+     client: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        _bytesDispatched: 2873,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 4814,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _consuming: false,
+     _dumped: false,
+     next: [Function: next],
+     baseUrl: '',
+     originalUrl: '/login',
+     _parsedUrl: 
+      Url {
+        protocol: null,
+        slashes: null,
+        auth: null,
+        host: null,
+        port: null,
+        hostname: null,
+        hash: null,
+        search: null,
+        query: null,
+        pathname: '/login',
+        path: '/login',
+        href: '/login',
+        _raw: '/login' },
+     params: {},
+     query: {},
+     res: [Circular],
+     route: Route { path: '/login', stack: [Object], methods: [Object] } },
+  locals: {} }
+2017-10-09 14:03 -04:00: undefined
+2017-10-09 14:03 -04:00: undefined
+2017-10-09 14:03 -04:00: undefined
+2017-10-09 14:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 14:05 -04:00: {}
+undefined
+2017-10-09 14:07 -04:00: {}
+2017-10-09 14:15 -04:00: {}
+2017-10-09 14:29 -04:00: {}
+2017-10-09 14:29 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 14:32 -04:00: {}
+2017-10-09 14:32 -04:00: cookie exists
+2017-10-09 14:32 -04:00: undefined
+2017-10-09 14:34 -04:00: { username: 'nhkchan', password: 'kennethh' }
+cookie exists
+2017-10-09 14:34 -04:00: undefined
+2017-10-09 14:42 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 14:42 -04:00: cookie exists
+undefined
+2017-10-09 14:45 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 14:45 -04:00: cookie exists
+undefined
+2017-10-09 14:46 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 14:46 -04:00: cookie exists
+undefined
+2017-10-09 14:58 -04:00: { username: 'nhkchan', password: 'kennethh' }
+cookie exists
+2017-10-09 14:58 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 15:00 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 15:00 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 15:00 -04:00: { username: 'nhkchan', password: 'kenenthh' }
+2017-10-09 15:00 -04:00: cookie exists
+2017-10-09 15:00 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 15:00 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 15:00 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 15:01 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 15:01 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 15:01 -04:00: cookie exists
+2017-10-09 15:01 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 15:01 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 15:44 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 15:44 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 15:44 -04:00: cookie exists
+Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 15:44 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 16:35 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 16:36 -04:00: { username: 'nhkchan', password: 'kennethh' }
+cookie exists
+2017-10-09 16:36 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true,
+     isLoggedOn: 1,
+     username: 'nhkchan' } }
+2017-10-09 16:36 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 16:36 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 17:08 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 17:08 -04:00: cookie exists
+2017-10-09 17:08 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true,
+     isLoggedOn: 1,
+     username: 'nhkchan' } }
+2017-10-09 17:08 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 17:10 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 17:10 -04:00: { username: 'nhkchan', password: 'kennethh' }
+cookie exists
+2017-10-09 17:10 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 22:12 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 22:12 -04:00: { username: 'nhkchan', password: 'kennethh' }
+cookie exists
+2017-10-09 22:12 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 22:12 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 22:18 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 22:18 -04:00: { username: 'nhkchan', password: 'kennethh' }
+cookie exists
+2017-10-09 22:18 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 22:23 -04:00: { username: 'nhkchan', password: 'kennethh' }
+cookie exists
+2017-10-09 22:23 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 22:24 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 22:28 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 22:29 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 22:30 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 22:31 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 22:31 -04:00: cookie exists
+2017-10-09 22:31 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 22:46 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 22:46 -04:00: cookie exists
+2017-10-09 22:46 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 22:49 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 22:49 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 22:49 -04:00: cookie exists
+2017-10-09 22:49 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 22:49 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 22:49 -04:00: cookie exists
+2017-10-09 22:49 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 22:50 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 22:50 -04:00: cookie exists
+2017-10-09 22:50 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 22:50 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 22:50 -04:00: cookie exists
+2017-10-09 22:50 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 22:51 -04:00: { username: 'nhkchan', password: 'kennethh' }
+cookie exists
+2017-10-09 22:51 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 23:02 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:03 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-09 23:03 -04:00: cookie exists
+2017-10-09 23:03 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 23:08 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 23:11 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:11 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:11 -04:00: { username: 'nhkchan', password: 'kennethh' }
+cookie exists
+2017-10-09 23:11 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 23:11 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-09 23:26 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:26 -04:00: { username: 'yesusername', password: 'kennethh' }
+cookie exists
+2017-10-09 23:26 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'yesusername' }
+2017-10-09 23:27 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:27 -04:00: { username: 'yeshello', password: 'hello' }
+cookie exists
+2017-10-09 23:27 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'yeshello' }
+2017-10-09 23:30 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:30 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:30 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:30 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:30 -04:00: { username: 'yesusername', password: 'hello' }
+cookie exists
+2017-10-09 23:30 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'yesusername' }
+2017-10-09 23:30 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'yesusername' }
+2017-10-09 23:31 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:31 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:34 -04:00: { username: 'yes', password: 'now' }
+cookie exists
+2017-10-09 23:34 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'yes' }
+2017-10-09 23:34 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'yes' }
+2017-10-09 23:35 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'yes' }
+2017-10-09 23:38 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:38 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:38 -04:00: { username: 'yeshello', password: 'waht' }
+2017-10-09 23:38 -04:00: cookie exists
+2017-10-09 23:38 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'yeshello' }
+2017-10-09 23:38 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'yeshello' }
+2017-10-09 23:39 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'yeshello' }
+2017-10-09 23:57 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:57 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-09 23:57 -04:00: { username: 'Woot', password: 'yes' }
+2017-10-09 23:57 -04:00: cookie exists
+Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'Woot' }
+2017-10-09 23:57 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'Woot' }
+2017-10-10 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'Woot' }
+2017-10-10 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 00:06 -04:00: { username: 'Guia', password: 'yes' }
+cookie exists
+2017-10-10 00:06 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'Guia' }
+2017-10-10 00:06 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'Guia' }
+2017-10-10 00:06 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'Woot' }
+2017-10-10 08:41 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 08:41 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 08:42 -04:00: { username: 'Yelloo', password: 'what' }
+cookie exists
+2017-10-10 08:42 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'Yelloo' }
+2017-10-10 08:42 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'Yelloo' }
+2017-10-10 19:40 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 19:40 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 19:40 -04:00: { username: 'What', password: 't' }
+2017-10-10 19:40 -04:00: cookie exists
+2017-10-10 19:40 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'What' }
+2017-10-10 19:40 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'What' }
+2017-10-10 20:04 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 20:04 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 20:04 -04:00: { username: 'hello', password: 'yes' }
+cookie exists
+2017-10-10 20:04 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'hello' }
+2017-10-10 20:04 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'hello' }
+2017-10-10 20:12 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'hello' }
+2017-10-10 20:13 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'hello' }
+2017-10-10 20:21 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 20:21 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 22:02 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 22:02 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-10 22:02 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-10 22:02 -04:00: cookie exists
+2017-10-10 22:02 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-10 22:02 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:15 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:15 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:15 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-11 22:15 -04:00: cookie exists
+2017-10-11 22:15 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:15 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:27 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:28 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:29 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:29 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:31 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:37 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:37 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-11 22:39 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:05 -04:00: { username: 'hello', password: 'what' }
+cookie exists
+2017-10-12 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'hello' }
+2017-10-12 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'hello' }
+2017-10-12 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:05 -04:00: { username: 'hello', password: 'what' }
+cookie exists
+2017-10-12 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:05 -04:00: no records
+2017-10-12 00:05 -04:00: { username: 'hello', password: 'what' }
+2017-10-12 00:05 -04:00: cookie exists
+2017-10-12 00:05 -04:00: { Error: SQLITE_MISUSE: Database is closed
+    at Error (native)
+    at Database.get (/opt/expSite/node_modules/sqlite3/lib/sqlite3.js:20:25)
+    at /opt/expSite/routes/indexpage.js:42:6
+    at Layer.handle [as handle_request] (/opt/expSite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/expSite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/expSite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/expSite/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/expSite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/opt/expSite/node_modules/express/lib/router/index.js:335:12)
+    at next (/opt/expSite/node_modules/express/lib/router/index.js:275:10) errno: 21, code: 'SQLITE_MISUSE' }
+2017-10-12 00:06 -04:00: { username: 'hello', password: 'what' }
+2017-10-12 00:06 -04:00: cookie exists
+2017-10-12 00:06 -04:00: { Error: SQLITE_MISUSE: Database is closed
+    at Error (native)
+    at Database.get (/opt/expSite/node_modules/sqlite3/lib/sqlite3.js:20:25)
+    at /opt/expSite/routes/indexpage.js:42:6
+    at Layer.handle [as handle_request] (/opt/expSite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/expSite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/expSite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/expSite/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/expSite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/opt/expSite/node_modules/express/lib/router/index.js:335:12)
+    at next (/opt/expSite/node_modules/express/lib/router/index.js:275:10) errno: 21, code: 'SQLITE_MISUSE' }
+2017-10-12 00:06 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:06 -04:00: { username: 'nhkchan', password: 'what' }
+2017-10-12 00:06 -04:00: cookie exists
+2017-10-12 00:06 -04:00: { Error: SQLITE_MISUSE: Database is closed
+    at Error (native)
+    at Database.get (/opt/expSite/node_modules/sqlite3/lib/sqlite3.js:20:25)
+    at /opt/expSite/routes/indexpage.js:42:6
+    at Layer.handle [as handle_request] (/opt/expSite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/expSite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/expSite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/expSite/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/expSite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/opt/expSite/node_modules/express/lib/router/index.js:335:12)
+    at next (/opt/expSite/node_modules/express/lib/router/index.js:275:10) errno: 21, code: 'SQLITE_MISUSE' }
+2017-10-12 00:06 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-12 00:06 -04:00: cookie exists
+2017-10-12 00:06 -04:00: { Error: SQLITE_MISUSE: Database is closed
+    at Error (native)
+    at Database.get (/opt/expSite/node_modules/sqlite3/lib/sqlite3.js:20:25)
+    at /opt/expSite/routes/indexpage.js:42:6
+    at Layer.handle [as handle_request] (/opt/expSite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/expSite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/expSite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/expSite/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/expSite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/opt/expSite/node_modules/express/lib/router/index.js:335:12)
+    at next (/opt/expSite/node_modules/express/lib/router/index.js:275:10) errno: 21, code: 'SQLITE_MISUSE' }
+2017-10-12 00:06 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:06 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-12 00:06 -04:00: cookie exists
+2017-10-12 00:06 -04:00: { Error: SQLITE_MISUSE: Database is closed
+    at Error (native)
+    at Database.get (/opt/expSite/node_modules/sqlite3/lib/sqlite3.js:20:25)
+    at /opt/expSite/routes/indexpage.js:42:6
+    at Layer.handle [as handle_request] (/opt/expSite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/expSite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/expSite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/expSite/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/expSite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/opt/expSite/node_modules/express/lib/router/index.js:335:12)
+    at next (/opt/expSite/node_modules/express/lib/router/index.js:275:10) errno: 21, code: 'SQLITE_MISUSE' }
+2017-10-12 00:07 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:08 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-12 00:08 -04:00: cookie exists
+2017-10-12 00:08 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:08 -04:00: login successful
+2017-10-12 00:08 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:08 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:08 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:08 -04:00: { username: 'nhkchan', password: 'test' }
+2017-10-12 00:08 -04:00: cookie exists
+2017-10-12 00:08 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:08 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:08 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-12 00:08 -04:00: cookie exists
+2017-10-12 00:08 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 1 }
+2017-10-12 00:08 -04:00: login successful
+2017-10-12 00:08 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:08 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 1 }
+2017-10-12 00:12 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:12 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:12 -04:00: { username: 'yes', password: 'yes' }
+cookie exists
+2017-10-12 00:12 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:12 -04:00: no records
+2017-10-12 00:12 -04:00: { username: 'yes', password: 'yes' }
+cookie exists
+2017-10-12 00:12 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:12 -04:00: no records
+2017-10-12 00:12 -04:00: { username: 'yes', password: 'yes' }
+2017-10-12 00:12 -04:00: cookie exists
+Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:12 -04:00: no records
+2017-10-12 00:12 -04:00: { username: 'nhkchan', password: 'kennethh' }
+cookie exists
+2017-10-12 00:12 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:12 -04:00: login successful
+2017-10-12 00:12 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:12 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:13 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:13 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:13 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:17 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:18 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:18 -04:00: { username: 'nhkchan', password: '1' }
+cookie exists
+2017-10-12 00:18 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:18 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:18 -04:00: { username: 'nhkchan', password: 'what' }
+cookie exists
+2017-10-12 00:18 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 1 }
+2017-10-12 00:18 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:18 -04:00: { username: 'test', password: 'what' }
+2017-10-12 00:18 -04:00: cookie exists
+2017-10-12 00:18 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 2 }
+2017-10-12 00:18 -04:00: no records
+2017-10-12 00:20 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 2 }
+2017-10-12 00:20 -04:00: { username: 'test', password: '1' }
+cookie exists
+2017-10-12 00:20 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 2 }
+2017-10-12 00:20 -04:00: no records
+2017-10-12 00:20 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 2 }
+2017-10-12 00:20 -04:00: { username: 'test', password: '123' }
+2017-10-12 00:20 -04:00: cookie exists
+2017-10-12 00:20 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 2 }
+2017-10-12 00:20 -04:00: no records
+2017-10-12 00:20 -04:00: { username: 'nhkchan', password: '123' }
+2017-10-12 00:20 -04:00: cookie exists
+2017-10-12 00:20 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 2 }
+2017-10-12 00:20 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:23 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 3 }
+2017-10-12 00:23 -04:00: { username: 'nhkchan', password: 'test' }
+2017-10-12 00:23 -04:00: cookie exists
+2017-10-12 00:23 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 3 }
+2017-10-12 00:23 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:23 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 4 }
+2017-10-12 00:23 -04:00: { username: 'nhkchan', password: 'dsa' }
+2017-10-12 00:23 -04:00: cookie exists
+2017-10-12 00:23 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 4 }
+2017-10-12 00:23 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:23 -04:00: { username: 'nhkchan', password: 'what' }
+cookie exists
+2017-10-12 00:23 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 5 }
+2017-10-12 00:23 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:24 -04:00: { username: 'test', password: 'test' }
+2017-10-12 00:24 -04:00: cookie exists
+2017-10-12 00:24 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 6 }
+2017-10-12 00:24 -04:00: no records
+2017-10-12 00:24 -04:00: { username: 'testnhkch', password: 'test' }
+2017-10-12 00:24 -04:00: cookie exists
+2017-10-12 00:24 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 6 }
+2017-10-12 00:24 -04:00: no records
+2017-10-12 00:24 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-12 00:24 -04:00: cookie exists
+2017-10-12 00:24 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 6 }
+2017-10-12 00:24 -04:00: login successful
+2017-10-12 00:24 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:24 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 6 }
+2017-10-12 00:24 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 6 }
+2017-10-12 00:24 -04:00: { username: 'nhkchan', password: 'sd' }
+2017-10-12 00:24 -04:00: cookie exists
+2017-10-12 00:24 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 6 }
+2017-10-12 00:24 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:24 -04:00: { username: 'nhkchan', password: 'sdkennethh' }
+2017-10-12 00:24 -04:00: cookie exists
+2017-10-12 00:24 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 7 }
+2017-10-12 00:24 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:24 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-12 00:24 -04:00: cookie exists
+2017-10-12 00:24 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 8 }
+2017-10-12 00:24 -04:00: login successful
+2017-10-12 00:24 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:24 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 8 }
+2017-10-12 00:38 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 8 }
+2017-10-12 00:38 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 8 }
+2017-10-12 00:38 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-12 00:38 -04:00: cookie exists
+2017-10-12 00:38 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 8 }
+2017-10-12 00:38 -04:00: login successful
+2017-10-12 00:38 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:38 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan',
+  pwAttempt: 8 }
+2017-10-12 00:45 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:46 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:46 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-12 00:46 -04:00: cookie exists
+2017-10-12 00:46 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 00:46 -04:00: login successful
+2017-10-12 00:46 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 00:46 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:46 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 00:46 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 23:26 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 23:26 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 23:27 -04:00: { username: 'nhkchan', password: 'kenndsad' }
+2017-10-12 23:27 -04:00: cookie exists
+2017-10-12 23:27 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-12 23:27 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 23:27 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-12 23:27 -04:00: cookie exists
+2017-10-12 23:27 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 1 }
+2017-10-12 23:27 -04:00: login successful
+2017-10-12 23:27 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-12 23:27 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 1,
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-12 23:27 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 1,
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-14 00:04 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 1,
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-14 00:04 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 1,
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-14 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 00:05 -04:00: { username: 'nhkchan', password: 'yeah' }
+cookie exists
+2017-10-14 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 00:05 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-14 00:05 -04:00: { username: 'nhkchan', password: 'yeah' }
+2017-10-14 00:05 -04:00: cookie exists
+2017-10-14 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 1 }
+2017-10-14 00:05 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-14 00:05 -04:00: { username: 'nhkchan', password: 'yeah' }
+2017-10-14 00:05 -04:00: cookie exists
+2017-10-14 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 2 }
+2017-10-14 00:05 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-14 00:05 -04:00: { username: 'nhkchan', password: 'hlelo' }
+cookie exists
+2017-10-14 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 3 }
+2017-10-14 00:05 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-14 00:05 -04:00: { username: 'nhkchan', password: 'kennethh' }
+2017-10-14 00:05 -04:00: cookie exists
+2017-10-14 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 4 }
+2017-10-14 00:05 -04:00: login successful
+2017-10-14 00:05 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-14 00:05 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 4,
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-14 00:06 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 4,
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-14 00:06 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 4,
+  isLoggedOn: 1,
+  username: 'nhkchan' }
+2017-10-14 09:51 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 09:51 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 09:51 -04:00: { username: 'nhkchan', password: 'test' }
+2017-10-14 09:51 -04:00: cookie exists
+2017-10-14 09:51 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 09:51 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-14 09:51 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 1 }
+2017-10-14 11:49 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 11:54 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 11:55 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 12:03 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 12:03 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 12:36 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 12:36 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 12:36 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 12:36 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 12:36 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 12:36 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 22:46 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 23:55 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 23:56 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 23:56 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 23:56 -04:00: { username: 'nhkchan', password: '12312' }
+cookie exists
+2017-10-14 23:56 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true } }
+2017-10-14 23:56 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-14 23:56 -04:00: { username: 'nhkchan', password: 'what!!!!!!' }
+cookie exists
+2017-10-14 23:56 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 1 }
+2017-10-14 23:56 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-14 23:56 -04:00: { username: 'nhkchan', password: 'holycow' }
+2017-10-14 23:56 -04:00: cookie exists
+2017-10-14 23:56 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 2 }
+2017-10-14 23:56 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-14 23:56 -04:00: { username: 'nhkchan', password: 'holycow' }
+2017-10-14 23:56 -04:00: cookie exists
+2017-10-14 23:56 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 3 }
+2017-10-14 23:56 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-14 23:56 -04:00: { username: 'nhkchan', password: 'kennethh' }
+cookie exists
+2017-10-14 23:56 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 4 }
+2017-10-14 23:56 -04:00: login successful
+2017-10-14 23:56 -04:00: { USERID: 1, USERNAME: 'nhkchan', PASSWORD: 'a2VubmV0aGg=' }
+2017-10-14 23:56 -04:00: Session {
+  cookie: 
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  pwAttempt: 4,
+  isLoggedOn: 1,
+  username: 'nhkchan' }

@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name"        : "expSite",
+    "script"      : "./index.js",
+    "watch"       : true,
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "error_file": "./log/expSite_err.log",
+    "out_file": "./log/expSite_out.log"
+  }]
+}

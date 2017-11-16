@@ -1,0 +1,22 @@
+{
+  "name": "expsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "config": "^1.26.2",
+    "express": "^4.16.1",
+    "express-session": "^1.15.6",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0",
+    "sqlite3": "^3.1.13",
+    "twitter": "^1.7.1",
+    "xml2js": "^0.4.19"
+  }
+}

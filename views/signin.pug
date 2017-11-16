@@ -1,0 +1,22 @@
+doctype html
+html(lang='en')
+  include includes/head.pug
+  body
+    .container
+      form.form-signin(id='signinform',action='#', method='post')
+        h2.form-signin-heading Please sign in
+        label.sr-only(for='inputUsername') Username
+        input#inputUsername.form-control(type='username', placeholder='User Name', required='', autofocus='', name='username')
+        label.sr-only(for='inputPassword') Password
+        input#inputPassword.form-control(type='password', placeholder='Password', required='', name='password')
+        .checkbox
+          label
+            input(type='checkbox', value='remember-me', name='remember-me')
+            |  Remember me
+        button.btn.btn-lg.btn-primary.btn-block() Sign in
+        br
+        br
+        a(href='/') back to home
+    // /container
+    // IE10 viewport hack for Surface/desktop Windows 8 bug
+    //script(src='js/ie10-viewport-bug-workaround.js')
